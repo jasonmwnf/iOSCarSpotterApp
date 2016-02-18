@@ -37,6 +37,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="NQs-8u-5Bj" kind="show" identifier="updateCar" id="xsB-jo-iy8"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -151,4 +154,7 @@
             <point key="canvasLocation" x="305" y="351"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="xsB-jo-iy8"/>
+    </inferredMetricsTieBreakers>
 </document>

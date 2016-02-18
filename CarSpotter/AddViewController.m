@@ -32,6 +32,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    if (self.device) {
+        [self.carMake setText:[self.device valueForKey:@"text1"]];
+        [self.carModel setText:[self.device valueForKey:@"text2"]];
+        [self.carYear setText:[self.device valueForKey:@"text3"]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,11 +59,19 @@
     
     NSManagedObjectContext *context = [self managedObjectContext];
     
-    NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
-    
-    [newDevice setValue:self.carMake.text forKey:@"text1"];
-    [newDevice setValue:self.carModel.text forKey:@"text2"];
-    [newDevice setValue:self.carYear.text forKey:@"text3"];
+    if (self.device) {
+        [self.device setValue:self.carMake.text forKey:@"text1"];
+        [self.device setValue:self.carModel.text forKey:@"text2"];
+        [self.device setValue:self.carYear.text forKey:@"text3"];
+
+    } else {
+        
+        NSManagedObject *newDevice = [NSEntityDescription insertNewObjectForEntityForName:@"Device" inManagedObjectContext:context];
+        
+        [newDevice setValue:self.carMake.text forKey:@"text1"];
+        [newDevice setValue:self.carModel.text forKey:@"text2"];
+        [newDevice setValue:self.carYear.text forKey:@"text3"];
+    }
     
     NSError *error = nil;
     
