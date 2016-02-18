@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  CarSpotter
 //
 //  Created by Jason Williams on 2016-02-18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-

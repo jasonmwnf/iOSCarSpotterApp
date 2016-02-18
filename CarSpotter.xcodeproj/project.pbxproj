@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		969A14861C75897E00B7FFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14851C75897E00B7FFA8 /* main.m */; };
 		969A14891C75897E00B7FFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14881C75897E00B7FFA8 /* AppDelegate.m */; };
-		969A148C1C75897E00B7FFA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A148B1C75897E00B7FFA8 /* ViewController.m */; };
 		969A148F1C75897E00B7FFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A148D1C75897E00B7FFA8 /* Main.storyboard */; };
 		969A14921C75897E00B7FFA8 /* CarSpotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969A14901C75897E00B7FFA8 /* CarSpotter.xcdatamodeld */; };
 		969A14941C75897E00B7FFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969A14931C75897E00B7FFA8 /* Assets.xcassets */; };
 		969A14971C75897E00B7FFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A14951C75897E00B7FFA8 /* LaunchScreen.storyboard */; };
 		969A14A21C75897E00B7FFA8 /* CarSpotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14A11C75897E00B7FFA8 /* CarSpotterTests.m */; };
 		969A14AD1C75897E00B7FFA8 /* CarSpotterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14AC1C75897E00B7FFA8 /* CarSpotterUITests.m */; };
+		969A14BC1C758BEB00B7FFA8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14BB1C758BEB00B7FFA8 /* TableViewController.m */; };
+		969A14BE1C758C6700B7FFA8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969A14BD1C758C6700B7FFA8 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,6 @@
 		969A14851C75897E00B7FFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		969A14871C75897E00B7FFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		969A14881C75897E00B7FFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		969A148A1C75897E00B7FFA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		969A148B1C75897E00B7FFA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		969A148E1C75897E00B7FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		969A14911C75897E00B7FFA8 /* CarSpotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarSpotter.xcdatamodel; sourceTree = "<group>"; };
 		969A14931C75897E00B7FFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,9 @@
 		969A14A81C75897E00B7FFA8 /* CarSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969A14AC1C75897E00B7FFA8 /* CarSpotterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSpotterUITests.m; sourceTree = "<group>"; };
 		969A14AE1C75897E00B7FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969A14BA1C758BEB00B7FFA8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		969A14BB1C758BEB00B7FFA8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		969A14BD1C758C6700B7FFA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969A14BE1C758C6700B7FFA8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 		969A14781C75897E00B7FFA8 = {
 			isa = PBXGroup;
 			children = (
+				969A14BD1C758C6700B7FFA8 /* CoreData.framework */,
 				969A14831C75897E00B7FFA8 /* CarSpotter */,
 				969A14A01C75897E00B7FFA8 /* CarSpotterTests */,
 				969A14AB1C75897E00B7FFA8 /* CarSpotterUITests */,
@@ -105,8 +109,8 @@
 			children = (
 				969A14871C75897E00B7FFA8 /* AppDelegate.h */,
 				969A14881C75897E00B7FFA8 /* AppDelegate.m */,
-				969A148A1C75897E00B7FFA8 /* ViewController.h */,
-				969A148B1C75897E00B7FFA8 /* ViewController.m */,
+				969A14BA1C758BEB00B7FFA8 /* TableViewController.h */,
+				969A14BB1C758BEB00B7FFA8 /* TableViewController.m */,
 				969A148D1C75897E00B7FFA8 /* Main.storyboard */,
 				969A14931C75897E00B7FFA8 /* Assets.xcassets */,
 				969A14951C75897E00B7FFA8 /* LaunchScreen.storyboard */,
@@ -273,10 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				969A148C1C75897E00B7FFA8 /* ViewController.m in Sources */,
 				969A14891C75897E00B7FFA8 /* AppDelegate.m in Sources */,
 				969A14921C75897E00B7FFA8 /* CarSpotter.xcdatamodeld in Sources */,
 				969A14861C75897E00B7FFA8 /* main.m in Sources */,
+				969A14BC1C758BEB00B7FFA8 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
