@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969A14861C75897E00B7FFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14851C75897E00B7FFA8 /* main.m */; };
+		969A14891C75897E00B7FFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14881C75897E00B7FFA8 /* AppDelegate.m */; };
+		969A148C1C75897E00B7FFA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A148B1C75897E00B7FFA8 /* ViewController.m */; };
+		969A148F1C75897E00B7FFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A148D1C75897E00B7FFA8 /* Main.storyboard */; };
+		969A14921C75897E00B7FFA8 /* CarSpotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969A14901C75897E00B7FFA8 /* CarSpotter.xcdatamodeld */; };
+		969A14941C75897E00B7FFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969A14931C75897E00B7FFA8 /* Assets.xcassets */; };
+		969A14971C75897E00B7FFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A14951C75897E00B7FFA8 /* LaunchScreen.storyboard */; };
+		969A14A21C75897E00B7FFA8 /* CarSpotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14A11C75897E00B7FFA8 /* CarSpotterTests.m */; };
+		969A14AD1C75897E00B7FFA8 /* CarSpotterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A14AC1C75897E00B7FFA8 /* CarSpotterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969A149E1C75897E00B7FFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969A14791C75897E00B7FFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969A14801C75897E00B7FFA8;
+			remoteInfo = CarSpotter;
+		};
+		969A14A91C75897E00B7FFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969A14791C75897E00B7FFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969A14801C75897E00B7FFA8;
+			remoteInfo = CarSpotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		969A14811C75897E00B7FFA8 /* CarSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		969A14851C75897E00B7FFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		969A14871C75897E00B7FFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		969A14881C75897E00B7FFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		969A148A1C75897E00B7FFA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		969A148B1C75897E00B7FFA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		969A148E1C75897E00B7FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969A14911C75897E00B7FFA8 /* CarSpotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarSpotter.xcdatamodel; sourceTree = "<group>"; };
+		969A14931C75897E00B7FFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969A14961C75897E00B7FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969A14981C75897E00B7FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969A149D1C75897E00B7FFA8 /* CarSpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		969A14A11C75897E00B7FFA8 /* CarSpotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSpotterTests.m; sourceTree = "<group>"; };
+		969A14A31C75897E00B7FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969A14A81C75897E00B7FFA8 /* CarSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		969A14AC1C75897E00B7FFA8 /* CarSpotterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSpotterUITests.m; sourceTree = "<group>"; };
+		969A14AE1C75897E00B7FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969A147E1C75897E00B7FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A149A1C75897E00B7FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A14A51C75897E00B7FFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969A14781C75897E00B7FFA8 = {
+			isa = PBXGroup;
+			children = (
+				969A14831C75897E00B7FFA8 /* CarSpotter */,
+				969A14A01C75897E00B7FFA8 /* CarSpotterTests */,
+				969A14AB1C75897E00B7FFA8 /* CarSpotterUITests */,
+				969A14821C75897E00B7FFA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969A14821C75897E00B7FFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969A14811C75897E00B7FFA8 /* CarSpotter.app */,
+				969A149D1C75897E00B7FFA8 /* CarSpotterTests.xctest */,
+				969A14A81C75897E00B7FFA8 /* CarSpotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969A14831C75897E00B7FFA8 /* CarSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				969A14871C75897E00B7FFA8 /* AppDelegate.h */,
+				969A14881C75897E00B7FFA8 /* AppDelegate.m */,
+				969A148A1C75897E00B7FFA8 /* ViewController.h */,
+				969A148B1C75897E00B7FFA8 /* ViewController.m */,
+				969A148D1C75897E00B7FFA8 /* Main.storyboard */,
+				969A14931C75897E00B7FFA8 /* Assets.xcassets */,
+				969A14951C75897E00B7FFA8 /* LaunchScreen.storyboard */,
+				969A14981C75897E00B7FFA8 /* Info.plist */,
+				969A14901C75897E00B7FFA8 /* CarSpotter.xcdatamodeld */,
+				969A14841C75897E00B7FFA8 /* Supporting Files */,
+			);
+			path = CarSpotter;
+			sourceTree = "<group>";
+		};
+		969A14841C75897E00B7FFA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969A14851C75897E00B7FFA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969A14A01C75897E00B7FFA8 /* CarSpotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				969A14A11C75897E00B7FFA8 /* CarSpotterTests.m */,
+				969A14A31C75897E00B7FFA8 /* Info.plist */,
+			);
+			path = CarSpotterTests;
+			sourceTree = "<group>";
+		};
+		969A14AB1C75897E00B7FFA8 /* CarSpotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				969A14AC1C75897E00B7FFA8 /* CarSpotterUITests.m */,
+				969A14AE1C75897E00B7FFA8 /* Info.plist */,
+			);
+			path = CarSpotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969A14801C75897E00B7FFA8 /* CarSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969A14B11C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotter" */;
+			buildPhases = (
+				969A147D1C75897E00B7FFA8 /* Sources */,
+				969A147E1C75897E00B7FFA8 /* Frameworks */,
+				969A147F1C75897E00B7FFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSpotter;
+			productName = CarSpotter;
+			productReference = 969A14811C75897E00B7FFA8 /* CarSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		969A149C1C75897E00B7FFA8 /* CarSpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969A14B41C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotterTests" */;
+			buildPhases = (
+				969A14991C75897E00B7FFA8 /* Sources */,
+				969A149A1C75897E00B7FFA8 /* Frameworks */,
+				969A149B1C75897E00B7FFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969A149F1C75897E00B7FFA8 /* PBXTargetDependency */,
+			);
+			name = CarSpotterTests;
+			productName = CarSpotterTests;
+			productReference = 969A149D1C75897E00B7FFA8 /* CarSpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		969A14A71C75897E00B7FFA8 /* CarSpotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969A14B71C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotterUITests" */;
+			buildPhases = (
+				969A14A41C75897E00B7FFA8 /* Sources */,
+				969A14A51C75897E00B7FFA8 /* Frameworks */,
+				969A14A61C75897E00B7FFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969A14AA1C75897E00B7FFA8 /* PBXTargetDependency */,
+			);
+			name = CarSpotterUITests;
+			productName = CarSpotterUITests;
+			productReference = 969A14A81C75897E00B7FFA8 /* CarSpotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969A14791C75897E00B7FFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Screaming Goat";
+				TargetAttributes = {
+					969A14801C75897E00B7FFA8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					969A149C1C75897E00B7FFA8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 969A14801C75897E00B7FFA8;
+					};
+					969A14A71C75897E00B7FFA8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 969A14801C75897E00B7FFA8;
+					};
+				};
+			};
+			buildConfigurationList = 969A147C1C75897E00B7FFA8 /* Build configuration list for PBXProject "CarSpotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969A14781C75897E00B7FFA8;
+			productRefGroup = 969A14821C75897E00B7FFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969A14801C75897E00B7FFA8 /* CarSpotter */,
+				969A149C1C75897E00B7FFA8 /* CarSpotterTests */,
+				969A14A71C75897E00B7FFA8 /* CarSpotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969A147F1C75897E00B7FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969A14971C75897E00B7FFA8 /* LaunchScreen.storyboard in Resources */,
+				969A14941C75897E00B7FFA8 /* Assets.xcassets in Resources */,
+				969A148F1C75897E00B7FFA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A149B1C75897E00B7FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A14A61C75897E00B7FFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969A147D1C75897E00B7FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969A148C1C75897E00B7FFA8 /* ViewController.m in Sources */,
+				969A14891C75897E00B7FFA8 /* AppDelegate.m in Sources */,
+				969A14921C75897E00B7FFA8 /* CarSpotter.xcdatamodeld in Sources */,
+				969A14861C75897E00B7FFA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A14991C75897E00B7FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969A14A21C75897E00B7FFA8 /* CarSpotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A14A41C75897E00B7FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969A14AD1C75897E00B7FFA8 /* CarSpotterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969A149F1C75897E00B7FFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969A14801C75897E00B7FFA8 /* CarSpotter */;
+			targetProxy = 969A149E1C75897E00B7FFA8 /* PBXContainerItemProxy */;
+		};
+		969A14AA1C75897E00B7FFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969A14801C75897E00B7FFA8 /* CarSpotter */;
+			targetProxy = 969A14A91C75897E00B7FFA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969A148D1C75897E00B7FFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969A148E1C75897E00B7FFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969A14951C75897E00B7FFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969A14961C75897E00B7FFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969A14AF1C75897E00B7FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		969A14B01C75897E00B7FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969A14B21C75897E00B7FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		969A14B31C75897E00B7FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		969A14B51C75897E00B7FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSpotter.app/CarSpotter";
+			};
+			name = Debug;
+		};
+		969A14B61C75897E00B7FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSpotter.app/CarSpotter";
+			};
+			name = Release;
+		};
+		969A14B81C75897E00B7FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		969A14B91C75897E00B7FFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.jason.CarSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969A147C1C75897E00B7FFA8 /* Build configuration list for PBXProject "CarSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969A14AF1C75897E00B7FFA8 /* Debug */,
+				969A14B01C75897E00B7FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969A14B11C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969A14B21C75897E00B7FFA8 /* Debug */,
+				969A14B31C75897E00B7FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969A14B41C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969A14B51C75897E00B7FFA8 /* Debug */,
+				969A14B61C75897E00B7FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969A14B71C75897E00B7FFA8 /* Build configuration list for PBXNativeTarget "CarSpotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969A14B81C75897E00B7FFA8 /* Debug */,
+				969A14B91C75897E00B7FFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		969A14901C75897E00B7FFA8 /* CarSpotter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				969A14911C75897E00B7FFA8 /* CarSpotter.xcdatamodel */,
+			);
+			currentVersion = 969A14911C75897E00B7FFA8 /* CarSpotter.xcdatamodel */;
+			path = CarSpotter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 969A14791C75897E00B7FFA8 /* Project object */;
+}
