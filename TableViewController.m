@@ -26,7 +26,6 @@
     }
     
     return context;
-    
 }
 
 
@@ -66,15 +65,19 @@
     return self.devices.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    static NSString *cellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    NSManagedObjectModel *device = [self.devices objectAtIndex:indexPath.row];
+    [cell.textLabel setText:[NSString stringWithFormat:@"%@ %@", [device valueForKey:@"text1"], [device valueForKey:@"text2"]]];
+    [cell.detailTextLabel setText:[device valueForKey:@"text3"]];
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
